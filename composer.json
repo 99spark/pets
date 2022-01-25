@@ -1,0 +1,18 @@
+{
+  "name": "328/dating",
+  "description": "My Diner Project",
+  "license": "Open Source",
+  "authors": [
+    {
+      "name": "Tarsem Bhachu",
+      "email": "Bhachu.Tarsem@student.greenriver.edu"
+    },
+    {
+      "name": "Alex Fischer",
+      "email": "Fischer.Alex@student.greenriver.edu"
+    }
+  ],
+  "require": {
+    "bcosca/fatfree-core": "dev-master"
+  }
+}
