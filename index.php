@@ -21,5 +21,13 @@ $f3->route('GET /',function(){
     echo $view->render('views/home.html');
 });
 
+//define second route
+$f3->route('GET /cats',function(){
+    //echo "Pet Home";
+
+    $view = new Template();
+    echo $view->render('views/cats.html');
+});
+
 // Run fat-free
 $f3->run();
